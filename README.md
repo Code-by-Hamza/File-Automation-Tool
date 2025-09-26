@@ -23,8 +23,8 @@ A simple Python tool to automatically organize files in a folder by type (Images
    ```python
    folder_path = r"C:\path\to\your\folder"
    ```
-2. Log will enter date and time automaticly add any additional info if you want.
-   ```tool.log("👉Here👈")
+2. Log will enter date and time automaticly add any additional info if you want in the script.
+   ```tool.log("👉Here👈")```
 
 3. Run the script:
    ```
