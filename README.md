@@ -23,11 +23,14 @@ A simple Python tool to automatically organize files in a folder by type (Images
    ```python
    folder_path = r"C:\path\to\your\folder"
    ```
-2. Run the script:
+2. Log will enter date and time automaticly add any additional info if you want.
+   ```tool.log("👉Here👈")
+
+3. Run the script:
    ```
    python file_organizer.py
    ```
-3. Files will be organized into subfolders inside your target folder.
+4. Files will be organized into subfolders inside your target folder.
 
 ---
 This script is for personal and educational use. Always back up important files before running automation scripts.

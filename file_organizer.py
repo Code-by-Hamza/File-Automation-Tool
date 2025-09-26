@@ -45,7 +45,7 @@ class FileOrganize:
     #loging Actions
     def log(self, message):
         with open("organizer_log.txt", "a") as f:
-            f.write(f"{datetime.now} - {message}\n")
+            f.write(f"{datetime.now()} - {message}\n")
 
 
 #Example Usuage
@@ -55,5 +55,5 @@ if __name__ == "__main__":
     tool = FileOrganize(folder_path)
     tool.create_folders()
     tool.organize()
-    tool.log("testing tool")
+    tool.log("example text...") #add any aditional info here
     print("Files Organized Successfully!")
